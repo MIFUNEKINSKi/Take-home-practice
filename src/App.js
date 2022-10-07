@@ -16,6 +16,7 @@ function App() {
         'content-type': 'application/json',
         'Accept': 'application/json'
       }
+      // 
     })
     .then(res => res.json())
     console.log(newData)
